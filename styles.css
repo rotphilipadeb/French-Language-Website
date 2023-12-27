@@ -1,1 +1,114 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.welcome-section {
+    background-color: #f4f4f4;
+    padding: 100px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.language-skill{
+    text-align: center;
+}
+.two-column-layout {
+    display: flex;
+    margin: 20px;
+}
+
+.exam-column-layout {
+    display: flex;
+    margin: 70px;
+}
+.information-column-layout{
+    display: flex;
+    margin: 100px;
+}
+
+.image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.three-column-layout {
+    background-color: black;
+    display: flex;
+    margin: 60px;
+    padding: 100px;
+    line-height: 1.5;
+    text-align: center;
+}
+.four-column-layout {
+    display: flex;
+    margin: 60px;
+    line-height: 1.5;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-right: 10px;
+}
+.text{
+   line-height: 1.5;
+   padding: 60;
+}
+.language-skill {
+    text-align: center;
+    font-size: large;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
 
