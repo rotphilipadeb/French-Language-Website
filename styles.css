@@ -1,53 +1,121 @@
+/* styles.css */
+
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 
-/* Navigation Menu */
-nav {
-    background-color: #000000;
-    color: white;
+header {
+    background-color: #333;
+    color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#logo {
-    max-width: 100px;
-    height: auto;
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ul {
-    list-style: none;
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-li {
-    margin: 0 15px;
+nav li {
+    margin-right: 20px;
 }
 
-/* Hamburger Menu Icon */
-.menu-icon {
-    display: none;
-    cursor: pointer;
-    font-size: 20px;
-    color: white;
+nav a {
+    text-decoration: none;
+    color: #fff;
 }
 
-/* Section Styles */
-.section {
-    padding: 20px;
+.welcome-section {
+    background-color: #f4f4f4;
+    padding: 100px;
+    font-size: x-large;
     text-align: center;
 }
 
+.language-skill{
+    text-align: center;
+}
+.two-column-layout {
+    display: flex;
+    margin: 20px;
+}
+
+.exam-column-layout {
+    display: flex;
+    margin: 70px;
+}
+.information-column-layout{
+    display: flex;
+    margin: 100px;
+}
+
+.image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.three-column-layout {
+    background-color: black;
+    display: flex;
+    margin: 60px;
+    padding: 100px;
+    line-height: 1.5;
+    text-align: center;
+}
+.four-column-layout {
+    display: flex;
+    margin: 60px;
+    line-height: 1.5;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-right: 10px;
+}
+.text{
+   line-height: 1.5;
+   padding: 60;
+}
+.language-skill {
+    text-align: center;
+    font-size: large;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
 @media (max-width: 768px) {
     /* Hamburger Menu Icon */
     .menu-icon {
         display: block;
+        color: #fff;
     }
 
     ul {
@@ -68,136 +136,9 @@ li {
     li {
         margin: 10px 0;
     }
-}
-/* section 1*/
-section {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    background: linear-gradient(to right, #f4f4f4, #fff);
-    color: #000;
-}
-
-h1 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
-    
-}
-
-h2 {
-    font-size: 1.5em;
-    margin-top: 0;
-    color: rgb(152, 17, 118);
-}
-
-/*section 2 and section 3*/
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.contain {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px;
-    padding-bottom: 100px;
-    box-sizing: content-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.column {
-    flex: 1;
-    min-width: 0; /* Prevents overflow on small screens */
-    box-sizing: border-box;
-    margin: 5px;
-    overflow: hidden; /* Ensures the image doesn't overflow its container */
-    background-color: #fff;
-}
-img {
-    width: 100%;
-    height: auto;
- 
-}
-
-.text {
-    background-color: white;
-    border-radius: 8px;
-    box-sizing: border-box;
-    text-align: left;
-    line-height: 25px;
-}
-
-@media (max-width: 768px) {
-    .column {
-        flex: 1 100%;
-    }
-}
-p{
-    line-height: 25px;
-}
-.edit{
-    padding-top: 80px;
-    padding-bottom: 120;
-}
-h3{
-    text-align: center;
-}
-.sect{
-    font-size: larger;
-}
-.par{
-    padding: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container1 {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 80px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(112, 7, 86);
-}
-
-.column1 {
-    flex: 1;
-    min-width: 0; /* Prevents overflow on small screens */
-    box-sizing: content-box;
-    margin: 10px;
-    margin-right: 10px;
-    overflow: hidden; /* Ensures content doesn't overflow its container */
-    text-align: center;
-    background-color: #fff;
-    color: black;
-    padding: 6%;
-}
-
-@media (max-width: 768px) {
-    .column1 {
-        flex: 1 100%;
+    .welcome-section {
+        padding: 10px;
+        font-size: medium;
+        text-align: center;
     }
 }
