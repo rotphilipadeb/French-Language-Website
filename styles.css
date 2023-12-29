@@ -122,10 +122,13 @@ h2 {
     margin: 5px;
     overflow: hidden; /* Ensures the image doesn't overflow its container */
     background-color: #fff;
-    
-  
 }
-
+img {
+    width: 150%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
 
 .text {
     background-color: white;
