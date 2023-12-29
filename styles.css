@@ -55,7 +55,7 @@ nav a {
         /* Text Overlay */
         .text-overlay {
             position: absolute;
-            top: 50%;
+            top: 30%;
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
@@ -64,7 +64,7 @@ nav a {
 
         .text-overlay h1 {
             margin: 0;
-            font-size: 3em;
+            font-size: 3.5em;
         }
 
         .text-overlay h2 {
