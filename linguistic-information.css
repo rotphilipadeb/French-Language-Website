@@ -32,7 +32,7 @@ body {
     color: #fff;
     width: 20%;
     padding: 20px;
-    position: static;
+    position: fixed;
 }
 
 .first-column a {
@@ -48,8 +48,8 @@ body {
 }
 /* Second Column */
 .second-column {
-    width: 80%;
-    padding: 20px;
+    width: 70%;
+    padding-left: 300px;
 }
 header h1 {
     margin: 0;
@@ -85,5 +85,37 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+/*Accordion*/
+
+.accordion {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.accordion-item {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-question {
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    color: #0c6acf;
+    font-size: 20px;
+}
+
+.accordion-answer {
+    padding: 15px;
+    display: none;
+}
+
+/* Styling for the active (open) state */
+.active {
+    display: block;
 }
 
