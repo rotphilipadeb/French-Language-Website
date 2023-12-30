@@ -22,9 +22,12 @@ header h1 {
     margin: 20px auto;
     padding: 20px;
 }
-
+.second-column{
+    line-height: 1.5;
+}
 article {
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 article h2 {
@@ -48,4 +51,6 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
+.p{
+    line-height: 1.5;
+}
