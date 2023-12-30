@@ -50,6 +50,7 @@ body {
 .second-column {
     width: 70%;
     padding-left: 300px;
+    line-height: 1.5;
 }
 header h1 {
     margin: 0;
